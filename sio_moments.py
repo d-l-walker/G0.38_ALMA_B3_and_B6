@@ -1,5 +1,6 @@
 """
-Loops over a pre-defined velocity range to generate integrated intensity maps.
+Loops over a pre-defined velocity range to generate integrated intensity maps
+in chunks of 10 km/s.
 """
 
 from astropy import units as u
